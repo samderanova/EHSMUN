@@ -13,7 +13,6 @@ function Gallery () {
                     <img src={'nhsmun4.jpeg'} alt='walking around'/>
                     <img src={'nhsmun5.jpeg'} alt='group pic'/>
                     <img src={'nhsmun7.jpg'} alt='un'/>
-                    <img src={'nhsmun6.JPG'} alt='flight'/>
                 </div>
                 <div className="bmun2019">
                     <h5>Berkeley Model United Nations (BMUN) 2019</h5>
@@ -22,7 +21,6 @@ function Gallery () {
                     <img src={'IMG_6806.JPG'} alt='view of berkeley'/>
                     <img src={'IMG_6760.JPG'} alt='bart station'/>
                     <img src={'IMG_6759.JPG'} alt='alameda point'/>
-                    <img src={'IMG_6746.JPG'} alt='waiting to leave'/>
                 </div>
             </div>
         </div>

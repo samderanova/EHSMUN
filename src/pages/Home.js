@@ -20,18 +20,12 @@ function App() {
   return (
     /*If any delegates win awards, put it here*/
     <div className="App" onLoad={checkDate}>
-      <h2>Encinal High School Model United Nations</h2>
-      <div className="bd-example">
+      <div className="bd-example" style={{position: "relative"}}>
+        <div className="textOnSlide slide-in" style={{color: "white", fontFamily: "'GlacialIndifferenceRegular', sans-serif", position: "absolute", left: "0", padding: "30px", top: "40%", zIndex: "1"}}>  
+          <h1 style={{fontSize: "70px", padding: "0"}}>Encinal High School Model United Nations</h1>
+          <h1 style={{textAlign: "left", padding: "0"}}>Home of the Jets</h1>
+        </div>
         <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
-          <ol className="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="7"></li>
-          </ol>
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img src={"IMG_6820.JPG"} className="d-block" alt="..." />
@@ -48,49 +42,41 @@ function App() {
               </div>
             </div>
             <div className="carousel-item">
-              <img src="IMG_7042.JPG" className="d-block" alt="..." />
+              <img src={"IMG_7042.JPG"} className="d-block" alt="..." />
               <div className="carousel-caption d-none d-md-block">
                 <h5>NHSMUN 2019</h5>
                 <p>San Francisco International Airport, CA</p>
               </div>
             </div>
             <div className="carousel-item">
-              <img src="IMG_8151.JPG" className="d-block" alt="..." />
+              <img src={"IMG_8151.JPG"} className="d-block" alt="..." />
               <div className="carousel-caption d-none d-md-block">
                 <h5>NHSMUN 2019</h5>
                 <p>United Nations Headquarters, NY</p>
               </div>
             </div>
             <div className="carousel-item">
-              <img src="IMG_7734.JPG" className="d-block" alt="..." />
+              <img src={"IMG_7734.JPG"} className="d-block" alt="..." />
               <div className="carousel-caption d-none d-md-block">
                 <h5>NHSMUN 2019</h5>
                 <p>New York City, NY</p>
               </div>
             </div>
             <div className="carousel-item">
-              <img src="dmun1.jpg" className="d-block" alt="..." />
+              <img src={"dmun1.jpg"} className="d-block" alt="..." />
               <div className="carousel-caption d-none d-md-block">
                 <h5>DMUNC 2019</h5>
                 <p>UC Davis, CA</p>
               </div>
             </div>
             <div className="carousel-item">
-              <img src="dmun2.jpg" className="d-block" alt="..." />
+              <img src={"dmun2.jpg"} className="d-block" alt="..." />
               <div className="carousel-caption d-none d-md-block">
                 <h5>DMUNC 2019</h5>
                 <p>UC Davis, CA</p>
               </div>
             </div>
           </div>
-          <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span className="sr-only">Previous</span>
-          </a>
-          <a className="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-            <span className="sr-only">Next</span>
-          </a>
         </div>
       </div>
 

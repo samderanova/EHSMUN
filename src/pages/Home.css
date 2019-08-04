@@ -7,19 +7,19 @@ body {
   background-color: #5b92e5;
 }
 
-.bd-example img {
-  max-height: 550px;
+.carousel-caption h5, .carousel-caption p {
+  font-size: 25px;
+  margin: auto;
 }
 
-.carousel-caption h5, .carousel-caption p {
-  background-image: linear-gradient(rgba(0.3,0.3,0.3,0.3), rgba(0.3,0.3,0.3,0.3));
-  margin: auto;
-  width: 40%;
+.carousel-item img {
+  filter: brightness(70%);
 }
 
 .d-block {
   margin: auto;
-  width: 55%;
+  max-height: 800px;
+  width: 100%;
 }
 
 .schedule {

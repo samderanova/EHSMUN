@@ -13,30 +13,11 @@ function Resources() {
             </a>
         );
     }
-    function FlowButton(props) {
+    function Card(props) {
         return (
-            <div className="flowContainer">
-                <button className="btn titlebtn btn-primary" data-toggle="modal" data-target="#exampleModal" style={props.styles}>
-                    <h5>{props.name}</h5>
-                </button>
-
-                <div className="modal fade" id="exampleModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div className="modal-dialog" role="document">
-                        <div className="modal-content">
-                            <div className="modal-header">
-                                <h5 className="modal-title" id="exampleModalLabel">{props.name}</h5>
-                                <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div className="modal-body">
-                                {props.content}
-                            </div>
-                            <div className="modal-footer">
-                                <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
+            <div className="card">
+                <div className="card-body">
+                    <h3 className="card-title">{props.title}</h3>
                 </div>
             </div>
         );
@@ -77,91 +58,99 @@ function Resources() {
                 <h3>Essential Tools</h3>
                 <p>Make sure you bring these items to your conferences. They will help you out a lot during committee!</p>
                 <ul>
-                    <li>Backup money and food money</li>
-                    <li>Transportation money or cards</li>
-                    <li>Water</li>
-                    <li>Placard</li>
-                    <li>Laptop (if committee allows it)</li>
-                    <li>Pencils and erasers</li>
-                    <li>Post-its</li>
-                    <li>Position Paper</li>
-                    <li>Pre-written speeches</li>
-                    <li>Additional research</li>
+                    <li><strong>Backup money and food money: </strong>You'll need to buy something to eat and drink. What can you do without money?</li>
+                    <li><strong>Transportation money or cards: </strong>Clipper cards are a great resource! No need to buy a ticket anymore!</li>
+                    <li><strong>Water: </strong>If you're thirsty, you'll have easy access to water.</li>
+                    <li><strong>Placard: </strong>You need to use this during committee so the chair will call on you, so make sure you bring it!</li>
+                    <li><strong>Laptop: </strong>This makes writing resolutions much easier, but not all committees allow them. Check for "Unmod tech" in the committee information for your conference!</li>
+                    <li><strong>Pencils and erasers: </strong>Pencils and erasers are good for taking notes</li>
+                    <li><strong>Post-its: </strong>You can use these to pass notes to other delegates</li>
+                    <li><strong>Position Paper: </strong>This will remind you of what your country's position is.</li>
+                    <li><strong>Pre-written speeches: </strong>If you plan to speak during the speaker's list, make sure you have a speech prepared!</li>
+                    <li><strong>Additional research: </strong>Any additional information regarding the topic will be very helpful!</li>
                 </ul>
                 <h3>Flow of Debate</h3>
                 <div className="flow">
-                    <FlowButton name="Roll Call" content={
-                        <div>
+                    <div className="card1">
+                        <div className="firstHalf">
+                            <Card title="Roll Call" />
+                            <p className="flowArrow">&darr;</p>
+                        </div>
+                        <div className="secondHalf">
                             <p>Roll call is like taking attendance at school. When your country is called say:</p>
                             <ul>
-                                <li><strong>Present: </strong>Your country will be able to vote in favor, against, or
-                                abstain when voting on resolutions.</li>
-                                <li><strong>Present and Voting: </strong>Your country will only be able to vote in favor or
-                                against</li>
+                                <li><strong>Present: </strong>Your country will be able to vote in favor, against, or abstain when voting on resolutions.</li>
+                                <li><strong>Present and Voting: </strong>Your country will only be able to vote in favor or against</li>
                             </ul>
                         </div>
-                    } />
-                    <p className="flowButton">&darr;</p>
-                    <FlowButton name="Motion to Open Debate" content={
-                        <div>
-                            <p>This motion, if it passes, officially begins the discussion in committee. It does NOT call the
-                                committee to order.
-                            </p>
-                            <p><i>Motion to open debate</i></p>
+                    </div>
+                    <div className="card2">
+                        <div className="firstHalf">
+                            <Card title="Motion to Open Debate" />
+                            <p className="flowArrow">&darr;</p>
                         </div>
-                    } />
-                    <p className="flowButton">&darr;</p>
-                    <FlowButton name="The Speaker's List" content={
-                        <div>
-                            <p>This motion, if it passes, allows delegates to present their country's opinions on the overall
-                                topic (an opening speech). These opening speeches will attract other delegates who agree with
-                                you and will help you form a resolution. Be a power delegate instead of a follower delegate!
-                            </p>
-                            <p><i>Motion to open the speaker's list</i></p>
+                        <div className="secondHalf">
+                            <p>This motion, if it passes, officially begins the discussion in committee. It does NOT call the committee to order."</p> 
+                            <i>Motion to open debate</i>
                         </div>
-                    } />
-                    <p className="flowButton">&#8597;</p>
-                    <FlowButton name="Caucusing" content={
-                        <div>
-                            <p>Moderated and unmoderated caucuses (deeper discussion between delegates) can take place while the
-                                Speaker's List is taking place. They are meant to help you form blocs with other delegates
-                                and start writing resolutions. Towards the end, your bloc will be required to submit a
-                                resolution to the chair.
-                            </p>
+                    </div>
+                    <div className="card3">
+                        <div className="firstHalf">
+                            <Card title="The Speaker's List" />
+                            <p className="flowArrow">&#8597;</p>
+                        </div>
+                        <div className="secondHalf">
+                            <p>This motion, if it passes, allows delegates to present their country's opinions on the overall topic (an opening speech). These opening speeches will attract other delegates who agree with you and will help you form a resolution. Be a power delegate instead of a follower delegate!</p>
+                            <i>Motion to open the speaker's list</i>
+                        </div>
+                    </div>
+                    <div className="card4">
+                        <div className="firstHalf">    
+                            <Card title="Caucusing" />
+                            <p className="flowArrow">&darr;</p>
+                        </div>
+                        <div className="secondHalf">
+                            <p>Moderated and unmoderated caucuses (deeper discussion between delegates) can take place while the Speaker's List is taking place. They are meant to help you form blocs with other delegates and start writing resolutions. Towards the end, your bloc will be required to submit a resolution to the chair.</p>
                             <ul>
                                 <li><i>Motion for a 6 minute moderated caucus to discuss the recent crisis</i></li>
                                 <li><i>Motion for a 6 minuted unmoderated caucus to start writing resolutions</i></li>
                             </ul>
                         </div>
-                    } />
-                    <p className="flowButton">&darr;</p>
-                    <FlowButton name="Voting Bloc" content={
-                        <div>
-                            <p>Resolutions are presented and voted on by delegates</p>
+                    </div>
+                    <div className="card5">
+                        <div className="firstHalf">
+                            <Card title="Voting Bloc" />
+                            <p className="flowArrow">&darr;</p>
+                        </div>
+                        <div className="secondHalf">
+                            <p>Resolutions are presented and voted on by delegates.</p>
                             <ul>
                                 <li><i>Yes</i></li>
                                 <li><i>No</i></li>
                                 <li><i>Abstain (if your country is PRESENT)</i></li>
                             </ul>
                         </div>
-                    } />
-                    <p className="flowButton">&darr;</p>
-                    <FlowButton name="Motion to End Debate" content={
-                        <div>
-                            <p>This motion, if passed, officially ends the committee.</p>
+                    </div>
+                    <div className="card6">
+                        <div className="firstHalf">
+                            <Card title="Motion to End Debate" />
                         </div>
-                    } />
+                        <div className="secondHalf">
+                            <p>This motion, if passed, officially ends the committee.</p>
+                            <i>Motion to end debate</i>
+                        </div>
+                    </div>  
                 </div>
                 <h2>Still Confused?</h2>
                 <h4 style={{ paddingBottom: "30px", textAlign: "center" }}>Head over to these resources to learn even more about MUN!</h4>
                 <div className="extraResources">
-                    <a href="https://learnbmun.squarespace.com" rel="noopener noreferrer">
+                    <a href="https://learnbmun.squarespace.com" target="_blank" rel="noopener noreferrer">
                         <button className="button1 btn btn-primary">
                             <h5>Learn</h5>
                             <p style={{ margin: "0" }}>Created by BMUN</p>
                         </button>
                     </a>
-                    <a href="https://www.helpmymun.com/" rel="noopener noreferrer">
+                    <a href="https://www.helpmymun.com/" target="_blank" rel="noopener noreferrer">
                         <button className="button2 btn btn-primary">
                             <h5>HelpMyMUN</h5>
                             <p style={{ margin: "0" }}>A great resource for beginners</p>

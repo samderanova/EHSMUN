@@ -37,3 +37,34 @@ footer p {
 .logos a {
   padding: 30px;
 }
+
+.slide-in {
+  opacity: 1;
+  animation-name: slideInOpacity;
+  -webkit-animation-name: slideInOpacity;
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+}
+
+@keyframes slideInOpacity {
+0% {
+      opacity: 0;
+  }
+
+100% {
+      opacity: 1;
+}
+}
+@-webkit-keyframes slideInOpacity {
+from {
+      opacity: 0;
+  }
+
+to {
+      opacity: 1;
+}
+}
