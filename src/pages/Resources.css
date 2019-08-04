@@ -1,0 +1,109 @@
+.slide-in {
+    opacity: 1;
+    animation-name: slideInOpacity;
+    -webkit-animation-name: slideInOpacity;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+}
+
+@keyframes slideInOpacity {
+	0% {
+        opacity: 0;
+    }
+
+	100% {
+        opacity: 1;
+	}
+}
+@-webkit-keyframes slideInOpacity {
+	from {
+        opacity: 0;
+    }
+
+	to {
+        opacity: 1;
+	}
+}
+
+.links {
+    padding: 0px;
+    text-align: center;
+}
+
+.page {
+    font-size: 19px;
+    line-height: 2em;
+    padding: 0 70px;
+}
+
+.links button {
+    background-color:  #5b92e5;
+}
+
+.links .btn {
+    border-radius: 0;
+    margin: 20px;
+    max-width: 325px;
+    min-height: 150px;
+    padding: 30px;
+}
+
+.links .btn p, .links .btn h5 {
+    margin: 0;
+    max-width: 590px;
+}
+
+.page h3 {
+    padding: 15px 0;
+}
+
+.flow {
+    padding: 30px;
+    text-align: center;
+}
+
+.flow .modal .modal-body {
+    text-align: left;
+}
+
+.flow button {
+    background-color: #5b92e5;
+}
+
+.flow .titlebtn {
+    border-radius: 0;
+    min-width: 325px;
+    min-height: 150px;
+    padding: 30px;
+}
+
+.flowButton {
+    text-align: center;
+    font-size: 50px;
+    vertical-align: top;
+}
+
+.extraResources {
+    text-align: center;
+}
+
+.extraResources button {
+    border-radius: 0;
+    margin: 30px;
+    min-width: 500px;
+    min-height: 300px;
+}
+
+.extraResources .button1 {
+    background: linear-gradient(rgba(0.4,0.4,0.4,0.4), rgba(0.4,0.4,0.4,0.4)), url("ucberkeley.jpg");
+    background-size: cover;
+}
+
+.extraResources .button2 {
+    background: linear-gradient(rgba(0.4,0.4,0.4,0.4), rgba(0.4,0.4,0.4,0.4)), url("gavel.jpg");
+    background-size: cover;
+}

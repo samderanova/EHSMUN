@@ -1,0 +1,64 @@
+.advisors .card {
+    vertical-align: middle;
+    width: 25rem;
+}
+
+.officers .card {
+    vertical-align: middle;
+    width: 19rem;
+}
+.officers, .advisors {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    padding: 30px;
+}
+
+.list {
+    display: inline-block;
+    padding: 30px;
+    width: 30%;
+}
+
+.cards {
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    margin: 30px;
+    padding: 20px;
+}
+
+.slide-in {
+    opacity: 1;
+    animation-name: slideInOpacity;
+    -webkit-animation-name: slideInOpacity;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+}
+
+@keyframes slideInOpacity {
+	0% {
+        opacity: 0;
+    }
+
+	100% {
+        opacity: 1;
+	}
+}
+@-webkit-keyframes slideInOpacity {
+	from {
+        opacity: 0;
+    }
+
+	to {
+        opacity: 1;
+	}
+}

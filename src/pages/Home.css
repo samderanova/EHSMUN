@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.bd-example {
+  background-color: #5b92e5;
+}
+
+.bd-example img {
+  max-height: 550px;
+}
+
+.carousel-caption h5, .carousel-caption p {
+  background-image: linear-gradient(rgba(0.3,0.3,0.3,0.3), rgba(0.3,0.3,0.3,0.3));
+  margin: auto;
+  width: 40%;
+}
+
+.d-block {
+  margin: auto;
+  width: 55%;
+}
+
+.schedule {
+  padding: 30px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+  text-align: center;
+  width: 70%;
+}
+
+thead {
+	border: 3px solid;
+	background-color: lightgray;
+	font-size: 25px;
+}
+
+td {
+  border: 3px solid;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.section {
+  font-size: 20px;
+  line-height: 1.75em;
+  text-align: center;
+}
+
+.fundraising, .outreach {
+  display: inline-block;
+  margin: 0 20px;
+  vertical-align: top;
+  width: 40%;
+}
+
+.fundraising button {
+  font-size: 25px;
+  margin: 20px;
+}
