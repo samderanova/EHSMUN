@@ -36,27 +36,31 @@
 
 .flow .firstHalf .card {
     margin: 0;
-    padding: 70px;
-    width: 30rem;
+    padding: 50px;
+    width: 19em;
 }
 
 .flow .firstHalf .card h3 {
     text-align: center;
 }
 
-.flow .firstHalf .flowArrow {
-    padding: 20px;
-}
-
 .flow .firstHalf, .flow .secondHalf {
     display: inline-block;
-    width: 50%;
-    margin: auto;
     vertical-align: top;
+}
+
+.flow .firstHalf {
+    width: 40%;
+}
+
+.flow .secondHalf {
+    padding-left: 130px;
+    width: 60%;
 }
 
 .flowArrow {
     font-size: 70px;
+    padding: 70px;
 }
 
 .flow .card {

@@ -90,7 +90,7 @@ function Resources() {
                             <p className="flowArrow">&darr;</p>
                         </div>
                         <div className="secondHalf">
-                            <p>This motion, if it passes, officially begins the discussion in committee. It does NOT call the committee to order."</p> 
+                            <p>This motion, if it passes, officially begins the discussion in committee. It does NOT call the committee to order.</p> 
                             <i>Motion to open debate</i>
                         </div>
                     </div>
