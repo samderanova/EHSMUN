@@ -26,6 +26,15 @@ function App() {
           <h1 style={{textAlign: "left", padding: "0"}}>Home of the Jets</h1>
         </div>
         <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
+          </ol>
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img src={"IMG_6820.JPG"} className="d-block" alt="..." />
