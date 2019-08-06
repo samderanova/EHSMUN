@@ -33,10 +33,7 @@ footer {
   position: absolute;
   bottom: 0;
   text-align: center;
-}
-
-footer p {
-  margin: 10px;
+  width: 100%;
 }
 
 .footer1, .footer2 {
@@ -45,9 +42,8 @@ footer p {
   width: 40%;
 }
 
-.footer2 p {
-  line-height: 2em;
-  padding: 15px;
+footer h6 {
+  padding: 10px;
 }
 
 .logos a {
