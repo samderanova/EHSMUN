@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/EHSMUN/static/css/main.bc2abd7a.chunk.css",
-    "main.js": "/EHSMUN/static/js/main.1869ba84.chunk.js",
-    "main.js.map": "/EHSMUN/static/js/main.1869ba84.chunk.js.map",
+    "main.css": "/EHSMUN/static/css/main.64f9ddba.chunk.css",
+    "main.js": "/EHSMUN/static/js/main.8d75f90b.chunk.js",
+    "main.js.map": "/EHSMUN/static/js/main.8d75f90b.chunk.js.map",
     "runtime~main.js": "/EHSMUN/static/js/runtime~main.e2d68985.js",
     "runtime~main.js.map": "/EHSMUN/static/js/runtime~main.e2d68985.js.map",
     "static/css/2.22a7d4ef.chunk.css": "/EHSMUN/static/css/2.22a7d4ef.chunk.css",
     "static/js/2.488ee1e0.chunk.js": "/EHSMUN/static/js/2.488ee1e0.chunk.js",
     "static/js/2.488ee1e0.chunk.js.map": "/EHSMUN/static/js/2.488ee1e0.chunk.js.map",
     "index.html": "/EHSMUN/index.html",
-    "precache-manifest.a236bb5aee48f9ca65ac006c20174ad5.js": "/EHSMUN/precache-manifest.a236bb5aee48f9ca65ac006c20174ad5.js",
+    "precache-manifest.cbed5bf55b6bb4d5cb1a0d0369735ebf.js": "/EHSMUN/precache-manifest.cbed5bf55b6bb4d5cb1a0d0369735ebf.js",
     "service-worker.js": "/EHSMUN/service-worker.js",
     "static/css/2.22a7d4ef.chunk.css.map": "/EHSMUN/static/css/2.22a7d4ef.chunk.css.map",
-    "static/css/main.bc2abd7a.chunk.css.map": "/EHSMUN/static/css/main.bc2abd7a.chunk.css.map",
+    "static/css/main.64f9ddba.chunk.css.map": "/EHSMUN/static/css/main.64f9ddba.chunk.css.map",
     "static/media/Resources.css": "/EHSMUN/static/media/ucberkeley.d6ef657e.jpg"
   }
 }
