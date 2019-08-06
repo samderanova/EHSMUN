@@ -63,12 +63,12 @@
 }
 
 .flow .firstHalf {
-    width: 40%;
+    width: 50%;
 }
 
 .flow .secondHalf {
-    padding-left: 130px;
-    width: 60%;
+    padding-left: 50px;
+    width: 50%;
 }
 
 .flowArrow {

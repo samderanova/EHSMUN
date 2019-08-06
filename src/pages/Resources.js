@@ -99,7 +99,10 @@ function Resources() {
                     <div className="card3">
                         <div className="firstHalf">
                             <Card title="The Speaker's List" image="speakerList.png" />
-                            <p className="flowArrow">&#8597;</p>
+                            <div style={{padding: "70px"}}>
+                                <p className="flowArrow" style={{display: "inline", padding: "0"}}>&darr;</p>
+                                <p className="flowArrow" style={{display: "inline", padding: "0"}}>&uarr;</p>
+                            </div>
                         </div>
                         <div className="secondHalf">
                             <p>This motion, if it passes, allows delegates to present their country's opinions on the overall topic (an opening speech). These opening speeches will attract other delegates who agree with you and will help you form a resolution. Be a power delegate instead of a follower delegate!</p>
