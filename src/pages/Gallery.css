@@ -13,11 +13,19 @@
 }
   
 .column {
-    flex: 33%;
     padding: 0 4px;
 }
 
-.column img {
+.column1, .column3 {
+    flex: 36%;
+    padding: 0 4px;
+}
+
+.column2 {
+    flex: 28%;
+    padding: 0 4px;
+}
+.row img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
