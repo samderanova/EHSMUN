@@ -45,7 +45,7 @@ function Gallery () {
                             <img className="lozad" data-src={'IMG_6760.JPG'} style={{maxWidth: "50%", paddingRight: "4px", verticalAlign: "top"}} alt='bart station'/>
                             <img className="lozad" data-src={'IMG_6827.JPG'} style={{maxWidth: "50%", paddingRight: "4px", verticalAlign: "top"}} alt='group waiting'/>
                         </div>
-                        <img className="lozad" data-src={'IMG_6831.jpg'} alt='oakland' />
+                        <img className="lozad" data-src={'IMG_6831.JPG'} alt='oakland' />
                     </div>
 
                 </div>
