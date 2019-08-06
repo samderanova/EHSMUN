@@ -25,7 +25,7 @@ function Gallery () {
                         <img src={'nhsmun4.jpeg'} alt='walking around'/>
                         <div class="column">
                             <img src={'IMG_6806.JPG'} style={{maxWidth: "50%", paddingRight: "4px", verticalAlign: "top"}} alt='view of berkeley'/>
-                            <img src={'IMG_6767.jpg'} style={{maxWidth: "50%", paddingRight: "4px", verticalAlign: "top"}} alt='group waiting' />
+                            <img src={'IMG_6767.JPG'} style={{maxWidth: "50%", paddingRight: "4px", verticalAlign: "top"}} alt='group waiting' />
                         </div>
                         <img src={'IMG_6760.JPG'} alt='bart station'/>
                     </div>
