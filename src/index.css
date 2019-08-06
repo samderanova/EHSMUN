@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -17,9 +18,20 @@ nav img {
   vertical-align: middle;
 }
 
+.container1 {
+  position: relative;
+  min-height: 100vh;
+}
+
+#root {
+  padding-bottom: 220px;
+}
+
 footer {
   background-color: #f8f9fa;
   padding: 10px;
+  position: absolute;
+  bottom: 0;
   text-align: center;
 }
 

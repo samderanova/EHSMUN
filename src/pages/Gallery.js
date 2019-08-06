@@ -7,9 +7,9 @@ function Gallery () {
         <div className="App slide-in">
             <div className="body">
                 <div className="row">
-                    <div class="column">
+                    <div className="column">
                         <img src={'nhsmun5.jpeg'} alt='group pic'/>
-                        <div class="column">    
+                        <div className="column">    
                             <img src={'nhsmun7.jpg'} style={{maxWidth: "50%", paddingRight: "4px", verticalAlign: "top"}} alt='large conference room'/>
                             <img src={'nhsmun2.jpeg'} style={{maxWidth: "50%", paddingRight: "4px", verticalAlign: "top"}} alt='funny pic' />
                         </div>
@@ -23,7 +23,7 @@ function Gallery () {
                     </div>
                     <div className="column">
                         <img src={'nhsmun4.jpeg'} alt='walking around'/>
-                        <div class="column">
+                        <div className="column">
                             <img src={'IMG_6806.JPG'} style={{maxWidth: "50%", paddingRight: "4px", verticalAlign: "top"}} alt='view of berkeley'/>
                             <img src={'IMG_6767.JPG'} style={{maxWidth: "50%", paddingRight: "4px", verticalAlign: "top"}} alt='group waiting' />
                         </div>
