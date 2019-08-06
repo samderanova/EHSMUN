@@ -17,6 +17,18 @@ function App() {
     }
   }
 
+  function Slide(props) { 
+    return (
+      <div className="carousel-item">
+        <img src={props.image} className="d-block" alt="..." />
+        <div className="carousel-caption d-none d-md-block">
+          <h5>{props.heading}</h5>
+          <p>{props.caption}</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     /*If any delegates win awards, put it here*/
     <div className="App" onLoad={checkDate}>
@@ -43,48 +55,12 @@ function App() {
                 <p>UC Berkeley, CA</p>
               </div>
             </div>
-            <div className="carousel-item">
-              <img src={"IMG_6801.JPG"} className="d-block" alt="..." />
-              <div className="carousel-caption d-none d-md-block">
-                <h5>BMUN 2019</h5>
-                <p>UC Berkeley, CA</p>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <img src={"IMG_7042.JPG"} className="d-block" alt="..." />
-              <div className="carousel-caption d-none d-md-block">
-                <h5>NHSMUN 2019</h5>
-                <p>San Francisco International Airport, CA</p>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <img src={"IMG_8151.JPG"} className="d-block" alt="..." />
-              <div className="carousel-caption d-none d-md-block">
-                <h5>NHSMUN 2019</h5>
-                <p>United Nations Headquarters, NY</p>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <img src={"IMG_7734.JPG"} className="d-block" alt="..." />
-              <div className="carousel-caption d-none d-md-block">
-                <h5>NHSMUN 2019</h5>
-                <p>New York City, NY</p>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <img src={"dmun1.jpg"} className="d-block" alt="..." />
-              <div className="carousel-caption d-none d-md-block">
-                <h5>DMUNC 2019</h5>
-                <p>UC Davis, CA</p>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <img src={"dmun2.jpg"} className="d-block" alt="..." />
-              <div className="carousel-caption d-none d-md-block">
-                <h5>DMUNC 2019</h5>
-                <p>UC Davis, CA</p>
-              </div>
-            </div>
+            <Slide image="IMG_6801.JPG" heading="BMUN 2019" caption="UC Berkeley, CA" />
+            <Slide image="IMG_7042.JPG" heading="NHSMUN 2019" caption="San Francisco International Airport, CA" />
+            <Slide image="IMG_8151.JPG" heading="NHSMUN 2019" caption="United Nations Headquarters, NY" />
+            <Slide image="IMG_7734.JPG" heading="NHSMUN 2019" caption="New York City, NY" />
+            <Slide image="dmun1.jpg" heading="DMUNC 2019" caption="UC Davis, CA" />
+            <Slide image="dmun2.jpg" heading="DMUNC 2019" caption="UC Davis, CA" />
           </div>
         </div>
       </div>
