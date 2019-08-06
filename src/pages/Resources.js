@@ -18,6 +18,7 @@ function Resources() {
             <div className="card">
                 <div className="card-body">
                     <h3 className="card-title">{props.title}</h3>
+                    <img src={props.image} alt="..."/>
                 </div>
             </div>
         );
@@ -69,11 +70,12 @@ function Resources() {
                     <li><strong>Pre-written speeches: </strong>If you plan to speak during the speaker's list, make sure you have a speech prepared!</li>
                     <li><strong>Additional research: </strong>Any additional information regarding the topic will be very helpful!</li>
                 </ul>
-                <h3>Flow of Debate</h3>
+                
                 <div className="flow">
+                    <h3>Flow of Debate</h3>
                     <div className="card1">
                         <div className="firstHalf">
-                            <Card title="Roll Call" />
+                            <Card title="Roll Call" image="rollCall.png"/>
                             <p className="flowArrow">&darr;</p>
                         </div>
                         <div className="secondHalf">
@@ -86,7 +88,7 @@ function Resources() {
                     </div>
                     <div className="card2">
                         <div className="firstHalf">
-                            <Card title="Motion to Open Debate" />
+                            <Card title="Motion to Open Debate" image="openDebate.png"/>
                             <p className="flowArrow">&darr;</p>
                         </div>
                         <div className="secondHalf">
@@ -96,7 +98,7 @@ function Resources() {
                     </div>
                     <div className="card3">
                         <div className="firstHalf">
-                            <Card title="The Speaker's List" />
+                            <Card title="The Speaker's List" image="speakerList.png" />
                             <p className="flowArrow">&#8597;</p>
                         </div>
                         <div className="secondHalf">
@@ -106,7 +108,7 @@ function Resources() {
                     </div>
                     <div className="card4">
                         <div className="firstHalf">    
-                            <Card title="Caucusing" />
+                            <Card title="Caucusing" image="caucusing.png"/>
                             <p className="flowArrow">&darr;</p>
                         </div>
                         <div className="secondHalf">
@@ -119,7 +121,7 @@ function Resources() {
                     </div>
                     <div className="card5">
                         <div className="firstHalf">
-                            <Card title="Voting Bloc" />
+                            <Card title="Voting Bloc" image="votingBloc.png"/>
                             <p className="flowArrow">&darr;</p>
                         </div>
                         <div className="secondHalf">
@@ -133,7 +135,7 @@ function Resources() {
                     </div>
                     <div className="card6">
                         <div className="firstHalf">
-                            <Card title="Motion to End Debate" />
+                            <Card title="Motion to End Debate" image="endDebate.png" />
                         </div>
                         <div className="secondHalf">
                             <p>This motion, if passed, officially ends the committee.</p>

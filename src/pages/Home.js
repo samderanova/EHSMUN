@@ -21,7 +21,7 @@ function App() {
     /*If any delegates win awards, put it here*/
     <div className="App" onLoad={checkDate}>
       <div className="bd-example" style={{position: "relative"}}>
-        <div className="textOnSlide slide-in" style={{color: "white", fontFamily: "'GlacialIndifferenceRegular', sans-serif", position: "absolute", left: "0", padding: "30px", top: "40%", zIndex: "1"}}>  
+        <div className="textOnSlide slide-in" style={{color: "white", position: "absolute", left: "0", padding: "30px", top: "40%", zIndex: "1"}}>  
           <h1 style={{fontSize: "70px", padding: "0"}}>Encinal High School Model United Nations</h1>
           <h1 style={{textAlign: "left", padding: "0"}}>Home of the Jets</h1>
         </div>
