@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './pages/Home';
-import About from './pages/About';
+import OandA from './pages/OandA';
+import WhatisMUN from './pages/WhatisMUN';
 import Resources from './pages/Resources';
 import Welcome from './pages/Welcome';
 import Gallery from './pages/Gallery';
@@ -13,13 +14,16 @@ ReactDOM.render(<App />, document.getElementById('root'));
 document.getElementById('link1').onclick = () => {
     ReactDOM.render(<Welcome />, document.getElementById('root'));
 }
-document.getElementById('link2').onclick = () => {
-    ReactDOM.render(<About />, document.getElementById('root'));
-}
 document.getElementById('link3').onclick = () => {
-    ReactDOM.render(<Resources />, document.getElementById('root'));
+    ReactDOM.render(<OandA />, document.getElementById('root'));
 }
 document.getElementById('link4').onclick = () => {
+    ReactDOM.render(<WhatisMUN />, document.getElementById('root'));
+}
+document.getElementById('link5').onclick = () => {
+    ReactDOM.render(<Resources />, document.getElementById('root'));
+}
+document.getElementById('link6').onclick = () => {
     ReactDOM.render(<Gallery />, document.getElementById('root'));
 }
 

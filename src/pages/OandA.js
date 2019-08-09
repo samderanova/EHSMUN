@@ -1,8 +1,8 @@
 import React from 'react';
-import './About.css';
+import './OandA.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
-function About() {
+function OandA() {
   function Advisor(props) {
     return (
       <div className="card list">
@@ -52,4 +52,4 @@ function About() {
   );
 }
 
-export default About;
+export default OandA;
