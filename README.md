@@ -4,4 +4,6 @@ Here you will find information on who helps make MUN function, resources on how 
 
 This website was built with HTML, CSS, JS, React, and Bootstrap with the help of Lozad, so make sure Javascript (scripts) on your browser is allowed!
 
+All images are used under the Fair Doctrine of Copyright Law and belong to their respective owners.
+
 Created by Sam Der
