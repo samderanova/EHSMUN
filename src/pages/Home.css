@@ -7,16 +7,16 @@ body {
   background-color: #5b92e5;
 }
 
-.carousel-caption h5, .carousel-caption p {
+.bd-example .carousel-caption h5, .bd-example .carousel-caption p {
   font-size: 25px;
   margin: auto;
 }
 
-.carousel-item img {
+.bd-example .carousel-item img {
   filter: brightness(70%);
 }
 
-.d-block {
+.bd-example .d-block {
   margin: auto;
   max-height: 820px;
   width: 100%;
