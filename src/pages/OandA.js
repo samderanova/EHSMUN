@@ -34,7 +34,7 @@ function OandA() {
       </h5>
       <h2>Meet the Advisors</h2>
       <div className="advisors">
-        <Advisor image="nielsen1.JPG" name="Laura Nielsen" description="Mrs. Nielsen has been with EHSMUN since its creation and has remained dedicated and loyal to helping the officers run it. She teaches AP and CP English at Encinal." />
+        <Advisor image="nielsen1.jpg" name="Laura Nielsen" description="Mrs. Nielsen has been with EHSMUN since its creation and has remained dedicated and loyal to helping the officers run it. She teaches AP and CP English at Encinal." />
         <Advisor image="ep1.jpg" name="Emily Pabarcus" description="Ms. P runs the MUN class at Encinal and was a big help in helping EHSMUN attend conferences. She teaches AP and CP United States History and English Language Development at Encinal." />
       </div>
       <h2>Officers</h2>
