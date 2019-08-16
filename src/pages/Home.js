@@ -74,34 +74,34 @@ function App() {
               <td>Event</td>
               <td>Date</td>
               <td>Location</td>
+              <td>Details</td>
             </tr>
           </thead>
           <tbody>
-            <tr id="row1">
+            <tr>
               <td>BMUN Delegate Workshop</td>
-              <td>TBA</td>
+              <td>10/26/2019</td>
               <td>UC Berkeley, Berkeley, CA</td>
+              <td>TBA</td>
             </tr>
-            <tr id="row2">
+            <tr>
               <td>Berkeley Model Arab League</td>
               <td>11/30/2019 - 12/1/2019</td>
               <td>UC Berkeley, Berkeley, CA</td>
+              <td>TBA</td>
             </tr>
-            <tr id="row3">
+            <tr>
               <td>Berkeley Model United Nations</td>
               <td>3/6/2020 - 3/8/2020</td>
               <td>UC Berkeley, Berkeley, CA</td>
+              <td><a href="http://www.bmun.org/" target="_blank" rel="noopener noreferrer">BMUN LXVII</a></td> 
             </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
+            {/*<tr>
+              <td>Southern California Model United Nations</td>
+              <td>3/28/2020 - 3/29/2020</td>
+              <td>University of Southern California, Los Angeles, CA</td>
+              <td><a href="https://www.scmun.org/" target="_blank" rel="noopener noreferrer">SCMUN 2020</a></td>
+            </tr>*/}
           </tbody>
         </table>
       </div>

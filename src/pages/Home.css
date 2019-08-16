@@ -18,7 +18,7 @@ body {
 
 .bd-example .d-block {
   margin: auto;
-  max-height: 820px;
+  max-height: 890px;
   width: 100%;
 }
 
@@ -30,7 +30,7 @@ table {
   border-collapse: collapse;
   margin: auto;
   text-align: center;
-  width: 70%;
+  width: 90%;
 }
 
 thead {
