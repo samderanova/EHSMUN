@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/EHSMUN/static/css/main.92105461.chunk.css",
+    "main.css": "/EHSMUN/static/css/main.39cbfe87.chunk.css",
     "main.js": "/EHSMUN/static/js/main.460da101.chunk.js",
     "main.js.map": "/EHSMUN/static/js/main.460da101.chunk.js.map",
     "runtime~main.js": "/EHSMUN/static/js/runtime~main.e2d68985.js",
@@ -9,10 +9,10 @@
     "static/js/2.a3ba3a46.chunk.js": "/EHSMUN/static/js/2.a3ba3a46.chunk.js",
     "static/js/2.a3ba3a46.chunk.js.map": "/EHSMUN/static/js/2.a3ba3a46.chunk.js.map",
     "index.html": "/EHSMUN/index.html",
-    "precache-manifest.296675922eeb69ab61cbaacd5c7a4d89.js": "/EHSMUN/precache-manifest.296675922eeb69ab61cbaacd5c7a4d89.js",
+    "precache-manifest.a00eb17145cf3c9b140004048dca34c4.js": "/EHSMUN/precache-manifest.a00eb17145cf3c9b140004048dca34c4.js",
     "service-worker.js": "/EHSMUN/service-worker.js",
     "static/css/2.22a7d4ef.chunk.css.map": "/EHSMUN/static/css/2.22a7d4ef.chunk.css.map",
-    "static/css/main.92105461.chunk.css.map": "/EHSMUN/static/css/main.92105461.chunk.css.map",
+    "static/css/main.39cbfe87.chunk.css.map": "/EHSMUN/static/css/main.39cbfe87.chunk.css.map",
     "static/media/Resources.css": "/EHSMUN/static/media/ucberkeley.5c9279fe.jpg"
   }
 }
