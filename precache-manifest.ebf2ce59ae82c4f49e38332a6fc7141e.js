@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "159e1e8f2f141060a4f47a721b51b051",
+    "revision": "4425790bfcc92d909f2e4212c0031017",
     "url": "/EHSMUN/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/EHSMUN/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "39ab898d67e6eb82eecc",
-    "url": "/EHSMUN/static/css/main.39cbfe87.chunk.css"
+    "revision": "1731afc9434ba2d0327a",
+    "url": "/EHSMUN/static/css/main.513b07f2.chunk.css"
   },
   {
     "revision": "1373386dabad1695a530",
     "url": "/EHSMUN/static/js/2.a3ba3a46.chunk.js"
   },
   {
-    "revision": "39ab898d67e6eb82eecc",
+    "revision": "1731afc9434ba2d0327a",
     "url": "/EHSMUN/static/js/main.460da101.chunk.js"
   },
   {
