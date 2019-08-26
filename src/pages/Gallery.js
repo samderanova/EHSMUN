@@ -33,6 +33,7 @@ function Gallery () {
                         <img className="lozad" data-src={'nhsmun3.jpeg'} alt='hallway'/>
                         <img className="lozad" data-src={'nhsmun9.JPG'} alt='nyc night' />
                         <img className="lozad" data-src={'IMG_6831.JPG'} alt='oakland' />
+                        <img className="lozad" data-src={'unBart.jpg'} alt='un logo at BART station' />
                     </div>
 
                     <div className="column3">
