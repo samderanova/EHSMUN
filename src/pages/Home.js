@@ -86,7 +86,7 @@ function App() {
             </tr>
             <tr>
               <td>Berkeley Model Arab League</td>
-              <td>11/30/2019 - 12/1/2019</td>
+              <td>11/23/2019 - 11/24/2019</td>
               <td>UC Berkeley, Berkeley, CA</td>
               <td>TBA</td>
             </tr>
