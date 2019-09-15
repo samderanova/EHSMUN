@@ -74,27 +74,38 @@ function App() {
               <td>Event</td>
               <td>Date</td>
               <td>Location</td>
-              <td>Details</td>
             </tr>
           </thead>
           <tbody>
             <tr>
+              <td>First Meeting!!</td>
+              <td>9/18/2019 at 2 PM</td>
+              <td>College and Career Center</td>
+            </tr>
+            <tr>
+              <td>Second Meeting!!</td>
+              <td>9/20/2019 at 2 PM</td>
+              <td>Room 401</td>
+            </tr>
+            <tr>
+              <td>Chipotle Fundraiser</td>
+              <td>10/2/2019 from 4 PM - 8 PM</td>
+              <td>Alameda Landing Chipotle</td>
+            </tr>
+            <tr>
               <td>BMUN Delegate Workshop</td>
               <td>10/26/2019</td>
               <td>UC Berkeley, Berkeley, CA</td>
-              <td>TBA</td>
             </tr>
             <tr>
               <td>Berkeley Model Arab League</td>
               <td>11/23/2019 - 11/24/2019</td>
               <td>UC Berkeley, Berkeley, CA</td>
-              <td>TBA</td>
             </tr>
             <tr>
               <td>Berkeley Model United Nations</td>
               <td>3/6/2020 - 3/8/2020</td>
-              <td>UC Berkeley, Berkeley, CA</td>
-              <td><a href="http://www.bmun.org/" target="_blank" rel="noopener noreferrer">BMUN LXVII</a></td> 
+              <td>UC Berkeley, Berkeley, CA</td> 
             </tr>
             {/*<tr>
               <td>Southern California Model United Nations</td>
