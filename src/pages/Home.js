@@ -84,8 +84,8 @@ function App() {
             </tr>
             <tr>
               <td>Second Meeting!!</td>
-              <td>9/20/2019 at 2 PM</td>
-              <td>Room 401</td>
+              <td>9/25/2019 at 2 PM</td>
+              <td>College and Career Center</td>
             </tr>
             <tr>
               <td>Chipotle Fundraiser</td>
