@@ -9,7 +9,7 @@ function App() {
     var day = date.getDate();
     var year = date.getFullYear();
     console.log(month + "/" + day + "/" + year);
-    if ((month === 12 && day > 1 && year === 2019) || (year === 2020)) {
+    if ((month === 11 && day > 24 && year === 2019) || (year === 2020)) {
       document.getElementById("row2").innerHTML = "";
     }
     if ((month >= 3 & year >= 2020) && (month >= 3 & day > 8 & year >= 2020)) {
@@ -66,7 +66,7 @@ function App() {
       </div>
 
       <h2 style={{ textAlign: "center", paddingTop: "30px" }}>UPCOMING EVENTS</h2>
-
+      <h3 style={{ textAlign: "center" }}>Meetings are every Wednesday JETS in the College and Career Center!</h3>
       <div className="schedule">
         <table>
           <thead>
@@ -78,16 +78,6 @@ function App() {
           </thead>
           <tbody>
             <tr>
-              <td>First Meeting!!</td>
-              <td>9/18/2019 at 2 PM</td>
-              <td>College and Career Center</td>
-            </tr>
-            <tr>
-              <td>Second Meeting!!</td>
-              <td>9/25/2019 at 2 PM</td>
-              <td>College and Career Center</td>
-            </tr>
-            <tr>
               <td>Chipotle Fundraiser</td>
               <td>10/2/2019 from 4 PM - 8 PM</td>
               <td>Alameda Landing Chipotle</td>
@@ -97,12 +87,12 @@ function App() {
               <td>10/26/2019</td>
               <td>UC Berkeley, Berkeley, CA</td>
             </tr>
-            <tr>
+            <tr id="row2">
               <td>Berkeley Model Arab League</td>
               <td>11/23/2019 - 11/24/2019</td>
               <td>UC Berkeley, Berkeley, CA</td>
             </tr>
-            <tr>
+            <tr id="row3">
               <td>Berkeley Model United Nations</td>
               <td>3/6/2020 - 3/8/2020</td>
               <td>UC Berkeley, Berkeley, CA</td> 
@@ -113,6 +103,11 @@ function App() {
               <td>University of Southern California, Los Angeles, CA</td>
               <td><a href="https://www.scmun.org/" target="_blank" rel="noopener noreferrer">SCMUN 2020</a></td>
             </tr>*/}
+            <tr>
+              <td>Davis Model United Nations</td>
+              <td>5/16/2020 - 5/17/2020</td>
+              <td>UC Davis, Davis, CA</td>
+            </tr>
           </tbody>
         </table>
       </div>
