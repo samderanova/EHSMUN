@@ -117,7 +117,7 @@ function Resources() {
                         <div className="secondHalf">
                             <p>Moderated and unmoderated caucuses (deeper discussion between delegates) can take place while the Speaker's List is taking place. They are meant to help you form blocs with other delegates and start writing resolutions. Towards the end, your bloc will be required to submit a resolution to the chair.</p>
                             <ul>
-                                <li><i>Motion for a 6 minute moderated caucus to discuss the recent crisis</i></li>
+                                <li><i>Motion for a 6 minute moderated caucus with a 30 second speaking time to discuss the recent crisis</i></li>
                                 <li><i>Motion for a 6 minuted unmoderated caucus to start writing resolutions</i></li>
                             </ul>
                         </div>
