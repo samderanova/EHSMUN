@@ -66,7 +66,8 @@ function App() {
       </div>
 
       <h2 style={{ textAlign: "center", paddingTop: "30px" }}>UPCOMING EVENTS</h2>
-      <h3 style={{ textAlign: "center" }}>Meetings are every Wednesday JETS in the College and Career Center!</h3>
+      <h3 style={{ textAlign: "center" }}>Meetings are usually every Wednesday JETS in the College and Career Center, but join
+        our Remind so you can get relocation notifications!</h3>
       <div className="schedule">
         <table>
           <thead>
@@ -77,11 +78,6 @@ function App() {
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>Chipotle Fundraiser</td>
-              <td>10/2/2019 from 4 PM - 8 PM</td>
-              <td>Alameda Landing Chipotle</td>
-            </tr>
             <tr>
               <td>BMUN Delegate Workshop</td>
               <td>10/26/2019</td>
