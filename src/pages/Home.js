@@ -67,7 +67,7 @@ function App() {
 
       <h2 style={{ textAlign: "center", paddingTop: "30px" }}>UPCOMING EVENTS</h2>
       <h3 style={{ textAlign: "center" }}>Meetings are usually every Wednesday JETS in the College and Career Center, but join
-        our Remind so you can get relocation notifications!</h3>
+        our Remind just in case we relocate!</h3>
       <div className="schedule">
         <table>
           <thead>
