@@ -66,8 +66,8 @@ function App() {
       </div>
 
       <h2 style={{ textAlign: "center", paddingTop: "30px" }}>UPCOMING EVENTS</h2>
-      <h3 style={{ textAlign: "center" }}>Meetings are usually every Wednesday JETS in the College and Career Center, but join
-        our Remind just in case we relocate!</h3>
+      <h3>Meetings are usually every Wednesday JETS in the College and Career Center, but join
+        our Remind just in case we relocate! Text the code "@encinalmo" to 81010 or use the Remind app.</h3>
       <div className="schedule">
         <table>
           <thead>
@@ -107,7 +107,52 @@ function App() {
           </tbody>
         </table>
       </div>
-
+      
+      <div className="delegateWorkshop">
+        <h2>The Delegate Workshop is approaching fast!</h2>
+        <h3>Here is the schedule:</h3>
+        <div className="dwtable">
+          <table>
+            <thead>
+              <tr>
+                <td>Time</td>
+                <td>Event</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>8:00 AM</td>
+                <td>Meet at the 12th St. BART Station (Corner of Broadway and 13th)</td>
+              </tr>
+              <tr>
+                <td>9:15 AM - 9:30 AM</td>
+                <td>Committee Meetup</td>
+              </tr>
+              <tr>
+                <td>9:40 AM - 12:00 PM</td>
+                <td>Committee Session 1 (MUN Procedure)</td>
+              </tr>
+              <tr>
+                <td>12:00 PM - 1:00 PM</td>
+                <td>Lunch</td>
+              </tr>
+              <tr>
+                <td>1:00 PM - 4:00 PM</td>
+                <td>Committee Session 2 (Simulation)</td>
+              </tr>
+              <tr>
+                <td>2:00 PM - 3:00 PM</td>
+                <td>Advisor Meeting</td>
+              </tr>
+              <tr>
+                <td>4:00 PM - 4:30 PM</td>
+                <td>Closing Ceremonies</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      
       <div className="section">
         <div className="fundraising">
           <h2>FUNDRAISING</h2>

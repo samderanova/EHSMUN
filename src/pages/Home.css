@@ -22,15 +22,23 @@ body {
   width: 100%;
 }
 
-.schedule {
+.schedule, .dwtable {
   padding: 30px;
+}
+
+.schedule {
+  font-size: 20px;
+}
+
+.dwtable {
+  font-size: 22px;
 }
 
 table {
   border-collapse: collapse;
   margin: auto;
   text-align: center;
-  width: 90%;
+  width: 80%;
 }
 
 thead {
@@ -41,7 +49,6 @@ thead {
 
 td {
   border: 3px solid;
-  font-size: 20px;
   padding: 20px;
 }
 
@@ -54,6 +61,12 @@ td {
 .section h2 {
   text-align: left;
   padding: 30px 0;
+}
+
+h3 {
+  text-align: center;
+  line-height: 1.5em; 
+  padding: 0 130px;
 }
 
 .fundraising, .outreach {
