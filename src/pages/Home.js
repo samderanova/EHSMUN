@@ -111,7 +111,7 @@ function App() {
       <div className="delegateWorkshop">
         <h2>The Delegate Workshop is approaching fast!</h2>
         <h3>Be sure to fill out the waivers if you haven't already!</h3>
-        <h3>SCHEDULE</h3>
+        <h2>SCHEDULE</h2>
         <div className="dwtable">
           <table>
             <thead>
