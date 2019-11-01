@@ -80,7 +80,7 @@ function App() {
           <tbody>
             <tr>
               <td>BMUN Delegate Workshop</td>
-              <td>10/26/2019</td>
+              <td>11/16/2019</td>
               <td>UC Berkeley, Berkeley, CA</td>
             </tr>
             <tr id="row2">
