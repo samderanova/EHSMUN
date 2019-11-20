@@ -78,11 +78,6 @@ function App() {
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>BMUN Delegate Workshop</td>
-              <td>11/16/2019</td>
-              <td>UC Berkeley, Berkeley, CA</td>
-            </tr>
             <tr id="row2">
               <td>Berkeley Model Arab League</td>
               <td>11/23/2019 - 11/24/2019</td>
@@ -109,45 +104,83 @@ function App() {
       </div>
       
       <div className="delegateWorkshop">
-        <h2>The Delegate Workshop is approaching fast!</h2>
+        <h2>BMAL is approaching fast!</h2>
         <h3>Be sure to fill out the waivers if you haven't already!</h3>
         <h2>SCHEDULE</h2>
         <div className="dwtable">
+          <h3>Saturday, 11/23/2019</h3>
           <table>
             <thead>
               <tr>
                 <td>Time</td>
                 <td>Event</td>
+                <td>Room</td>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td>8:00 AM</td>
                 <td>Meet at the 12th St. BART Station (Corner of Broadway and 13th)</td>
+                <td>N/A</td>
               </tr>
               <tr>
-                <td>9:15 AM - 9:30 AM</td>
-                <td>Committee Meetup</td>
+                <td>9:00 AM - 9:45 AM</td>
+                <td>Opening Ceremonies</td>
+                <td>Dwinelle 145</td>
               </tr>
               <tr>
-                <td>9:40 AM - 12:00 PM</td>
-                <td>Committee Session 1 (MUN Procedure)</td>
+                <td>10:00 AM - 12:30 PM</td>
+                <td>Committee Session 1</td>
+                <td>Each committee is in a different room</td>
               </tr>
               <tr>
-                <td>12:00 PM - 1:00 PM</td>
-                <td>Lunch</td>
+                <td>12:30 PM - 1:30 PM</td>
+                <td>Lunch (is provided)</td>
+                <td>Entrance to Dwinelle Hall</td>
               </tr>
               <tr>
-                <td>1:00 PM - 4:00 PM</td>
-                <td>Committee Session 2 (Simulation)</td>
+                <td>1:30 PM - 5:00 PM</td>
+                <td>Committee Session 2</td>
+                <td>Each committee is in a different room</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div className="dwtable">
+          <h3>Sunday, 11/24/2019</h3>
+          <table>
+            <thead>
+              <tr>
+                <td>Time</td>
+                <td>Event</td>
+                <td>Room</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>9:00 AM - 12:30 PM</td>
+                <td>Committee Session 3</td>
+                <td>Each committee is in a different room</td>
               </tr>
               <tr>
-                <td>2:00 PM - 3:00 PM</td>
+                <td>10:00 AM - 11:00 AM</td>
                 <td>Advisor Meeting</td>
+                <td>Dwinelle 130</td>
               </tr>
               <tr>
-                <td>4:00 PM - 4:30 PM</td>
+                <td>12:30 PM - 1:30 PM</td>
+                <td>Lunch (not provided)</td>
+                <td>N/A</td>
+              </tr>
+              <tr>
+                <td>1:30 PM - 3:30 PM</td>
+                <td>Committee Session 4</td>
+                <td>Each committee is in a different room</td>
+              </tr>
+              <tr>
+                <td>3:30 PM - 4:30 PM</td>
                 <td>Closing Ceremonies</td>
+                <td>Dwinelle 145</td>
               </tr>
             </tbody>
           </table>
