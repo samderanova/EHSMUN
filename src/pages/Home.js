@@ -9,9 +9,6 @@ function App() {
     var day = date.getDate();
     var year = date.getFullYear();
     console.log(month + "/" + day + "/" + year);
-    if ((month === 11 && day > 24 && year === 2019) || (year === 2020)) {
-      document.getElementById("row2").innerHTML = "";
-    }
     if ((month >= 3 & year >= 2020) && (month >= 3 & day > 8 & year >= 2020)) {
       document.getElementById("row3").innerHTML = "";
     }
@@ -29,6 +26,18 @@ function App() {
     );
   }
 
+  function AwardCard(props) {
+    return (
+      <div className="card" style={{width: '25rem'}}>
+        <div className="card-body">
+          <h5 className="card-title">{props.title}</h5>
+          <ul className="card-text">
+            {props.people}
+          </ul>
+        </div>
+      </div>
+    );
+  }
   return (
     /*If any delegates win awards, put it here*/
     <div className="App" onLoad={checkDate}>
@@ -46,15 +55,20 @@ function App() {
             <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="7"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="8"></li>
           </ol>
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img src={"IMG_6820.JPG"} className="d-block" alt="..." />
+              <img src={"IMG_56631.jpg"} className="d-block" alt="..." />
               <div className="carousel-caption d-none d-md-block">
-                <h5>BMUN 2019</h5>
+                <h5>BMAL 2019</h5>
                 <p>UC Berkeley, CA</p>
               </div>
             </div>
+            <Slide image="imagejpeg_0.jpg" heading="BMAL 2019" caption="UC Berkeley, CA" />
+            <Slide image="IMG_0250.jpg" heading="Delegate Workshop 2019" caption="UC Berkeley, CA"/>
+            <Slide image="IMG_6820.JPG" heading="BMUN 2019" caption="UC Berkeley, CA" />
             <Slide image="IMG_6801.JPG" heading="BMUN 2019" caption="UC Berkeley, CA" />
             <Slide image="IMG_7042.JPG" heading="NHSMUN 2019" caption="San Francisco International Airport, CA" />
             <Slide image="IMG_8151.JPG" heading="NHSMUN 2019" caption="United Nations Headquarters, NY" />
@@ -78,11 +92,6 @@ function App() {
             </tr>
           </thead>
           <tbody>
-            <tr id="row2">
-              <td>Berkeley Model Arab League</td>
-              <td>11/23/2019 - 11/24/2019</td>
-              <td>UC Berkeley, Berkeley, CA</td>
-            </tr>
             <tr id="row3">
               <td>Berkeley Model United Nations</td>
               <td>3/6/2020 - 3/8/2020</td>
@@ -103,87 +112,33 @@ function App() {
         </table>
       </div>
       
-      <div className="delegateWorkshop">
-        <h2>BMAL is approaching fast!</h2>
-        <h3>Be sure to fill out the waivers if you haven't already!</h3>
-        <h2>SCHEDULE</h2>
-        <div className="dwtable">
-          <h3>Saturday, 11/23/2019</h3>
-          <table>
-            <thead>
-              <tr>
-                <td>Time</td>
-                <td>Event</td>
-                <td>Room</td>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>8:00 AM</td>
-                <td>Meet at the 12th St. BART Station (Corner of Broadway and 13th)</td>
-                <td>N/A</td>
-              </tr>
-              <tr>
-                <td>9:00 AM - 9:45 AM</td>
-                <td>Opening Ceremonies</td>
-                <td>Dwinelle 145</td>
-              </tr>
-              <tr>
-                <td>10:00 AM - 12:30 PM</td>
-                <td>Committee Session 1</td>
-                <td>Each committee is in a different room</td>
-              </tr>
-              <tr>
-                <td>12:30 PM - 1:30 PM</td>
-                <td>Lunch (is provided)</td>
-                <td>Entrance to Dwinelle Hall</td>
-              </tr>
-              <tr>
-                <td>1:30 PM - 5:00 PM</td>
-                <td>Committee Session 2</td>
-                <td>Each committee is in a different room</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div className="dwtable">
-          <h3>Sunday, 11/24/2019</h3>
-          <table>
-            <thead>
-              <tr>
-                <td>Time</td>
-                <td>Event</td>
-                <td>Room</td>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>9:00 AM - 12:30 PM</td>
-                <td>Committee Session 3</td>
-                <td>Each committee is in a different room</td>
-              </tr>
-              <tr>
-                <td>10:00 AM - 11:00 AM</td>
-                <td>Advisor Meeting</td>
-                <td>Dwinelle 130</td>
-              </tr>
-              <tr>
-                <td>12:30 PM - 1:30 PM</td>
-                <td>Lunch (not provided)</td>
-                <td>N/A</td>
-              </tr>
-              <tr>
-                <td>1:30 PM - 3:30 PM</td>
-                <td>Committee Session 4</td>
-                <td>Each committee is in a different room</td>
-              </tr>
-              <tr>
-                <td>3:30 PM - 4:30 PM</td>
-                <td>Closing Ceremonies</td>
-                <td>Dwinelle 145</td>
-              </tr>
-            </tbody>
-          </table>
+      <div className="bmal">
+        <h2>Great job to those who won awards at BMAL!</h2>
+        <h3>Award Winners:</h3>
+        <div className="cardList">
+          <AwardCard title="Commendations" people={
+            <div>
+              <li>Noah Meeks: Represented Sudan in the Special Council on Regional Conflict and Instability</li>
+              <li>Sam Der: Represented Palestine in the Joint Defense Council</li>
+              <li>Kevin Yue: Represented Palestine in the Council of Economic Affairs</li>
+              <li>Yeva Hoffman: Represented Palestine in the Council of Social Affairs</li>
+            </div>
+          }>
+          </AwardCard>
+          <AwardCard title="Outstanding" people={
+            <div>
+              <li>Elijah Briggance: Represented Qatar in the Council of Economic Affairs</li>
+              <li>Edward Onaga: Represented Qatar in the Council of Economic Affairs</li>
+            </div>
+          }>
+          </AwardCard>
+          <AwardCard title="Best Delegate" people={
+            <div>
+              <li>Kash Mejia: Represented Qatar in the Council of Social Affairs Ministers</li>
+              <li>Natalia Benitez: Represented Qatar in the Council of Social Affairs Ministers</li>
+            </div>
+          }>
+          </AwardCard>
         </div>
       </div>
       

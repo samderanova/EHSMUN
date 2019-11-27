@@ -18,7 +18,7 @@ body {
 
 .bd-example .d-block {
   margin: auto;
-  max-height: 890px;
+  max-height: 895px;
   width: 100%;
 }
 
@@ -60,6 +60,22 @@ h3 {
   text-align: center;
   line-height: 1.5em; 
   padding: 0 130px;
+}
+
+.cardList {
+  text-align: center;
+}
+
+.card {
+  font-size: 18px;
+  min-height: 450px;
+  line-height: 1.75em;
+  text-align: left;
+  vertical-align: top;
+}
+
+.card-body {
+  padding: 10 !important;
 }
 
 .fundraising, .outreach {
