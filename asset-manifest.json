@@ -1,18 +1,26 @@
 {
   "files": {
-    "main.css": "/EHSMUN/static/css/main.3d1c434d.chunk.css",
-    "main.js": "/EHSMUN/static/js/main.55310f3d.chunk.js",
-    "main.js.map": "/EHSMUN/static/js/main.55310f3d.chunk.js.map",
-    "runtime~main.js": "/EHSMUN/static/js/runtime~main.e2d68985.js",
-    "runtime~main.js.map": "/EHSMUN/static/js/runtime~main.e2d68985.js.map",
-    "static/css/2.22a7d4ef.chunk.css": "/EHSMUN/static/css/2.22a7d4ef.chunk.css",
-    "static/js/2.f1e8fec5.chunk.js": "/EHSMUN/static/js/2.f1e8fec5.chunk.js",
-    "static/js/2.f1e8fec5.chunk.js.map": "/EHSMUN/static/js/2.f1e8fec5.chunk.js.map",
+    "main.css": "/EHSMUN/static/css/main.d6ffad93.chunk.css",
+    "main.js": "/EHSMUN/static/js/main.93a89c3b.chunk.js",
+    "main.js.map": "/EHSMUN/static/js/main.93a89c3b.chunk.js.map",
+    "runtime-main.js": "/EHSMUN/static/js/runtime-main.151a3b2c.js",
+    "runtime-main.js.map": "/EHSMUN/static/js/runtime-main.151a3b2c.js.map",
+    "static/css/2.64a99b10.chunk.css": "/EHSMUN/static/css/2.64a99b10.chunk.css",
+    "static/js/2.a9ae1ebe.chunk.js": "/EHSMUN/static/js/2.a9ae1ebe.chunk.js",
+    "static/js/2.a9ae1ebe.chunk.js.map": "/EHSMUN/static/js/2.a9ae1ebe.chunk.js.map",
     "index.html": "/EHSMUN/index.html",
-    "precache-manifest.565bb793659a22df6aeb4655c068ce19.js": "/EHSMUN/precache-manifest.565bb793659a22df6aeb4655c068ce19.js",
+    "precache-manifest.8de719e1d111fbe6861d85507171415e.js": "/EHSMUN/precache-manifest.8de719e1d111fbe6861d85507171415e.js",
     "service-worker.js": "/EHSMUN/service-worker.js",
-    "static/css/2.22a7d4ef.chunk.css.map": "/EHSMUN/static/css/2.22a7d4ef.chunk.css.map",
-    "static/css/main.3d1c434d.chunk.css.map": "/EHSMUN/static/css/main.3d1c434d.chunk.css.map",
+    "static/css/2.64a99b10.chunk.css.map": "/EHSMUN/static/css/2.64a99b10.chunk.css.map",
+    "static/css/main.d6ffad93.chunk.css.map": "/EHSMUN/static/css/main.d6ffad93.chunk.css.map",
+    "static/js/2.a9ae1ebe.chunk.js.LICENSE": "/EHSMUN/static/js/2.a9ae1ebe.chunk.js.LICENSE",
     "static/media/Resources.css": "/EHSMUN/static/media/ucberkeley.5c9279fe.jpg"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.151a3b2c.js",
+    "static/css/2.64a99b10.chunk.css",
+    "static/js/2.a9ae1ebe.chunk.js",
+    "static/css/main.d6ffad93.chunk.css",
+    "static/js/main.93a89c3b.chunk.js"
+  ]
 }
