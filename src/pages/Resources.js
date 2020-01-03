@@ -28,7 +28,7 @@ function Resources() {
             <div className="page">
                 <h2>Before the Conference</h2>
                 <h3>Research</h3>
-                <p>In order to be prepared for a conference, get to know your country's background. Here are a few
+                <p style={{textAlign: "center"}}>In order to be prepared for a conference, get to know your country's background. Here are a few
                     resources to get you started:
                 </p>
                 <div className="links">
