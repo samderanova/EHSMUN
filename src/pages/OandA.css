@@ -8,11 +8,11 @@
     width: 19rem;
 }
 
-.officers, .advisors, .card-text {
+.officers, .advisors, .year {
     text-align: center;
 }
 
-.card-text {
+.year {
     font-size: 1rem;
     font-family: "Titilium Web", sans-serif;
 }

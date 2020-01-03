@@ -21,7 +21,7 @@ function OandA() {
         <div className="card-body">
           <h5 className="card-title">{props.position}</h5>
           <h6 className="card-title">{props.name}</h6>
-          <p className="card-text">Year: {props.year}</p>
+          <p className="card-text year">Year: {props.year}</p>
         </div>
       </div>
     );
