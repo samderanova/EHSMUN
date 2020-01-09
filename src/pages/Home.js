@@ -97,12 +97,11 @@ function App() {
               <td>3/6/2020 - 3/8/2020</td>
               <td>UC Berkeley, Berkeley, CA</td> 
             </tr>
-            {/*<tr>
-              <td>Southern California Model United Nations</td>
-              <td>3/28/2020 - 3/29/2020</td>
-              <td>University of Southern California, Los Angeles, CA</td>
-              <td><a href="https://www.scmun.org/" target="_blank" rel="noopener noreferrer">SCMUN 2020</a></td>
-            </tr>*/}
+            <tr>
+              <td>EHSMUN Outreach Mock Session</td>
+              <td>3/20/2019 from 9 AM to 12 PM</td>
+              <td>Encinal High School Room 401</td> 
+            </tr>
             <tr>
               <td>Davis Model United Nations</td>
               <td>5/16/2020 - 5/17/2020</td>
