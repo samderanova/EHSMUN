@@ -92,6 +92,11 @@ function App() {
             </tr>
           </thead>
           <tbody>
+            <tr>
+              <td>Position Papers Due!</td>
+              <td>February 2nd (for awards)<br></br>February 10 (no award consideration)</td>
+              <td>N/A</td>
+            </tr>
             <tr id="row3">
               <td>Berkeley Model United Nations</td>
               <td>3/6/2020 - 3/8/2020</td>
