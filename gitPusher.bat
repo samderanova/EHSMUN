@@ -5,5 +5,5 @@ cd ..
 call git init
 call git add .
 set /p commitMessage = Enter the commit message in quotation marks:
-call git commit -m "%"
+call git commit -m ""
 call git push -u origin master
