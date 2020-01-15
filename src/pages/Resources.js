@@ -40,8 +40,8 @@ function Resources() {
                 </div>
                 <h3>Position Papers</h3>
                 <p>Most conferences require that you write a paper detailing your country's policies and arguments
-                    given a certain committee topic. As you are doing your research, be sure to take notes on several a
-                    spects as you will be needing them to write your paper:</p>
+                    given a certain committee topic. As you are doing your research, be sure to take notes on several aspects 
+                    as you will be needing them to write your paper:</p>
                 <ul>
                     <li><strong>Past and Current International Action: </strong> Any resolutions, laws, etc. passed
                     that involve the topic being discussed in committee</li>
@@ -49,7 +49,7 @@ function Resources() {
                     A large part of writing this section is based off of empathy. Pretend to be the leader of your country.
                     Based on the amount of research you have so far, what does your country's position seem to be? If you
                     are stuck, keep researching. Be careful not to use your own opinions!</li>
-                    <li><strong>Possible Soltuions: </strong>Based off of the research you have, what does your country think
+                    <li><strong>Possible Solutions: </strong>Based off of the research you have, what does your country think
                     a solution to the committee topic should be?</li>
                     <li><strong>Questions to Consider: </strong>Many conferences, especially BMUN, require you to answer
                     several questions about the topic. Make sure they are longer than one sentence and remember to incorporate
