@@ -99,7 +99,7 @@ function App() {
             </tr>
             <tr>
               <td>EHSMUN Outreach Mock Session</td>
-              <td>3/20/2019 from 9 AM to 12 PM</td>
+              <td>3/21/2020 from 9 AM to 12 PM</td>
               <td>Encinal High School Room 401</td> 
             </tr>
             <tr>
