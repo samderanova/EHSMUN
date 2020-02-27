@@ -111,6 +111,7 @@ function App() {
         </table>
       </div>
       
+      <h2>The BMUN Schedule and Committee Locations have been released!</h2>
       <div className="schedule" id="locations">
         <h3>Committee Locations</h3>
         <h4 style={{textAlign: "center"}}>Please note that some committee locations do change throughout the weekend!</h4>
@@ -189,7 +190,6 @@ function App() {
       </div>
 
       <div className="schedule">
-        <h2>The BMUN Schedule and Committee Locations have been released!</h2>
         <h3>Friday, March 6, 2020</h3>
         <table>
           <thead>
