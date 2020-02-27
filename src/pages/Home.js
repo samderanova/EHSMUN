@@ -111,8 +111,8 @@ function App() {
         </table>
       </div>
       
-      <h2>The BMUN Schedule and Committee Locations have been released!</h2>
       <div className="schedule" id="locations">
+        <h2>The BMUN Schedule and Committee Locations have been released!</h2>
         <h3>Committee Locations</h3>
         <h4 style={{textAlign: "center"}}>Please note that some committee locations do change throughout the weekend!</h4>
         <table>
