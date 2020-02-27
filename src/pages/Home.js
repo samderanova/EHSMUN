@@ -80,7 +80,7 @@ function App() {
       </div>
 
       <h2 style={{ textAlign: "center", paddingTop: "30px" }}>UPCOMING EVENTS</h2>
-      <h3>Meetings are usually every Wednesday JETS in the College and Career Center, but join
+      <h3>Meetings are usually every Wednesday JETS in Kerber's and Stahl's, but join
         our Remind just in case we relocate! Text the code "@encinalmo" to 81010 or use the Remind app.</h3>
       <div className="schedule">
         <table>
