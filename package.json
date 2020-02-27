@@ -5,6 +5,8 @@
   "homepage": "https://samderanova.github.io/EHSMUN",
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "django": "^1.0.0",
+    "django-express": "^1.0.0",
     "gh-pages": "^2.1.1",
     "jquery": "^3.4.1",
     "lozad": "^1.14.0",

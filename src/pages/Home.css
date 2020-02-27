@@ -26,6 +26,10 @@ body {
   padding: 30px;
 }
 
+.schedule h3 {
+  padding: 30px;
+}
+
 table {
   border-collapse: collapse;
   margin: auto;

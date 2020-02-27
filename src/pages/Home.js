@@ -92,11 +92,6 @@ function App() {
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>Position Papers Due!</td>
-              <td>February 2nd (for awards)<br></br>February 10 (no award consideration)</td>
-              <td>N/A</td>
-            </tr>
             <tr id="row3">
               <td>Berkeley Model United Nations</td>
               <td>3/6/2020 - 3/8/2020</td>
@@ -116,6 +111,217 @@ function App() {
         </table>
       </div>
       
+      <div className="schedule" id="locations">
+        <h3>Committee Locations</h3>
+        <h4 style={{textAlign: "center"}}>Please note that some committee locations do change throughout the weekend!</h4>
+        <table>
+          <thead>
+            <tr>
+              <td>Committee</td>
+              <td>Friday</td>
+              <td>Saturday</td>
+              <td>Sunday</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>SPECPOL</td>
+              <td>Chevron Auditorium (International House)</td>
+              <td>Chevron Auditorium (International House)</td>
+              <td>Chevron Auditorium (International House)</td>
+            </tr>
+            <tr>
+              <td>ECOFIN</td>
+              <td>Anna Head Alumnae Hall</td>
+              <td>Anna Head Alumnae Hall</td>
+              <td>Anna Head Alumnae Hall</td>
+            </tr>
+            <tr>
+              <td>SOCHUM</td>
+              <td>Pauley Ballroom West</td>
+              <td>Wheeler Auditorium</td>
+              <td>Pauley Ballroom West</td>
+            </tr>
+            <tr>
+              <td>UNHCR</td>
+              <td>Pauley Ballroom East</td>
+              <td>Valley Life Sciences 2040</td>
+              <td>Pauley Ballroom East</td>
+            </tr>
+            <tr>
+              <td>WHO</td>
+              <td>Dwinelle 155</td>
+              <td>Alumni House</td>
+              <td>Dwinelle 155</td>
+            </tr>
+            <tr>
+              <td>UNEP</td>
+              <td>Valley Life Sciences 2060</td>
+              <td>Valley Life Sciences 2060</td>
+              <td>Valley Life Sciences 2060</td>
+            </tr>
+            <tr>
+              <td>UNHRC</td>
+              <td>Ida Sproul Room (International House)</td>
+              <td>Ida Sproul Room (International House)</td>
+              <td>Ida Sproul Room (International House)</td>
+            </tr>
+            <tr>
+              <td>NGO Forum</td>
+              <td>Wheeler 20</td>
+              <td>Wheeler 20</td>
+              <td>Wheeler 202</td>
+            </tr>
+            <tr>
+              <td>Organization of American States</td>
+              <td>Wheeler 126</td>
+              <td>Wheeler 126</td>
+              <td>Wheeler 126</td>
+            </tr>
+            <tr>
+              <td>Senate</td>
+              <td>Wheeler 222</td>
+              <td>Wheeler 222</td>
+              <td>Wheeler 222</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div className="schedule">
+        <h2>The BMUN Schedule and Committee Locations have been released!</h2>
+        <h3>Friday, March 6, 2020</h3>
+        <table>
+          <thead>
+            <tr>
+              <td>Event</td>
+              <td>Location</td>
+              <td>Time</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Meeting After School</td>
+              <td>Room 401</td>
+              <td>2:00 PM</td>
+            </tr>
+            <tr>
+              <td>BMUN Registration</td>
+              <td>Kerr Lobby</td>
+              <td>Whenever we get there!</td>
+            </tr>
+            <tr>
+              <td>Eat Dinner (If There Is Time)</td>
+              <td>Anywhere!</td>
+              <td>Up to 4:30 PM</td>
+            </tr>
+            <tr>
+              <td>Opening Ceremonies</td>
+              <td>Pauley Ballroom</td>
+              <td>4:05 PM to 6:00 PM</td>
+            </tr>
+            <tr>
+              <td>More Dinner Time (If Needed)</td>
+              <td>Somewhere!</td>
+              <td>6:00 PM to 6:45 PM</td>
+            </tr>
+            <tr>
+              <td>Committee Meetup</td>
+              <td>Lower Sproul Plaza</td>
+              <td>6:45 PM to 7:00 PM</td>
+            </tr>
+            <tr>
+              <td>Committee Session 1</td>
+              <td>See <a href="#locations">Committee Locations</a></td>
+              <td>7:00 PM to 9:45 PM</td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>Saturday, March 7, 2020</h3>
+        <table>
+          <thead>
+            <tr>
+              <td>Event</td>
+              <td>Location</td>
+              <td>Time</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Morning Meetup</td>
+              <td>12th Street BART Entrance (Corner of Broadway and 13th)</td>
+              <td>Be there by 8:05 AM at the latest!</td>
+            </tr>
+            <tr>
+              <td>Committee Meetup</td>
+              <td>Lower Sproul Plaza</td>
+              <td>8:45 AM to 9:00 AM</td>
+            </tr>
+            <tr>
+              <td>Committee Session 2</td>
+              <td>See <a href="#locations">Committee Locations</a></td>
+              <td>9:00 AM to 12:00 PM</td>
+            </tr>
+            <tr>
+              <td>Advisor Meeting</td>
+              <td>Tilden Room</td>
+              <td>10:00 AM to 11:00 AM</td>
+            </tr>
+            <tr>
+              <td>Advisor Workshop with Best Delegate</td>
+              <td>Tilden Room</td>
+              <td>11:00 AM to 12:00 PM</td>
+            </tr>
+            <tr>
+              <td>Lunch</td>
+              <td>Some place that's not outside Berkeley!</td>
+              <td>12:00 PM to 1:30 PM</td>
+            </tr>
+            <tr>
+              <td>Committee Session 3</td>
+              <td>See <a href="#locations">Committee Locations</a></td>
+              <td>1:30 PM to 4:45 PM</td>
+            </tr>
+            <tr>
+              <td>Head Delegate Meeting</td>
+              <td>Wheeler 222</td>
+              <td>5:00 PM to 6:00 PM</td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>Sunday, March 8, 2020</h3>
+        <table>
+          <thead>
+            <tr>
+              <td>Event</td>
+              <td>Location</td>
+              <td>Time</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Morning Meetup</td>
+              <td>12th Street BART Entrance (Corner of Broadway and 13th)</td>
+              <td>Be there by 8:05 AM at the latest!</td>
+            </tr>
+            <tr>
+              <td>Committee Meetup</td>
+              <td>Lower Sproul Plaza</td>
+              <td>8:45 AM to 9:00 AM</td>
+            </tr>
+            <tr>
+              <td>Committee Session 4</td>
+              <td>See <a href="#locations">Committee Locations</a></td>
+              <td>9:00 AM to 12:00 PM</td>
+            </tr>
+            <tr>
+              <td>Closing Ceremonies</td>
+              <td>RSF Fieldhouse</td>
+              <td>1:00 PM to 3:00 PM</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
       <div className="bmal">
         <h2>Great job to those who won awards at BMAL!</h2>
         <h3>Award Winners:</h3>
