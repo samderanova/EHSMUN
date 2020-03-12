@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/EHSMUN/static/css/main.59e1a37c.chunk.css",
-    "main.js": "/EHSMUN/static/js/main.7868b47e.chunk.js",
-    "main.js.map": "/EHSMUN/static/js/main.7868b47e.chunk.js.map",
-    "runtime-main.js": "/EHSMUN/static/js/runtime-main.151a3b2c.js",
-    "runtime-main.js.map": "/EHSMUN/static/js/runtime-main.151a3b2c.js.map",
-    "static/css/2.64a99b10.chunk.css": "/EHSMUN/static/css/2.64a99b10.chunk.css",
-    "static/js/2.a9ae1ebe.chunk.js": "/EHSMUN/static/js/2.a9ae1ebe.chunk.js",
-    "static/js/2.a9ae1ebe.chunk.js.map": "/EHSMUN/static/js/2.a9ae1ebe.chunk.js.map",
+    "main.css": "/EHSMUN/static/css/main.a49d1da5.chunk.css",
+    "main.js": "/EHSMUN/static/js/main.1c2990cd.chunk.js",
+    "main.js.map": "/EHSMUN/static/js/main.1c2990cd.chunk.js.map",
+    "runtime-main.js": "/EHSMUN/static/js/runtime-main.7f54f773.js",
+    "runtime-main.js.map": "/EHSMUN/static/js/runtime-main.7f54f773.js.map",
+    "static/css/2.89f067aa.chunk.css": "/EHSMUN/static/css/2.89f067aa.chunk.css",
+    "static/js/2.fd5b2a1d.chunk.js": "/EHSMUN/static/js/2.fd5b2a1d.chunk.js",
+    "static/js/2.fd5b2a1d.chunk.js.map": "/EHSMUN/static/js/2.fd5b2a1d.chunk.js.map",
     "index.html": "/EHSMUN/index.html",
-    "precache-manifest.e072116c94b565c6a5f7e964f442eb70.js": "/EHSMUN/precache-manifest.e072116c94b565c6a5f7e964f442eb70.js",
+    "precache-manifest.0a5c53ecb5d4993a5a39f63cb7d89cc8.js": "/EHSMUN/precache-manifest.0a5c53ecb5d4993a5a39f63cb7d89cc8.js",
     "service-worker.js": "/EHSMUN/service-worker.js",
-    "static/css/2.64a99b10.chunk.css.map": "/EHSMUN/static/css/2.64a99b10.chunk.css.map",
-    "static/css/main.59e1a37c.chunk.css.map": "/EHSMUN/static/css/main.59e1a37c.chunk.css.map",
-    "static/js/2.a9ae1ebe.chunk.js.LICENSE": "/EHSMUN/static/js/2.a9ae1ebe.chunk.js.LICENSE",
+    "static/css/2.89f067aa.chunk.css.map": "/EHSMUN/static/css/2.89f067aa.chunk.css.map",
+    "static/css/main.a49d1da5.chunk.css.map": "/EHSMUN/static/css/main.a49d1da5.chunk.css.map",
+    "static/js/2.fd5b2a1d.chunk.js.LICENSE.txt": "/EHSMUN/static/js/2.fd5b2a1d.chunk.js.LICENSE.txt",
     "static/media/Resources.css": "/EHSMUN/static/media/ucberkeley.5c9279fe.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.151a3b2c.js",
-    "static/css/2.64a99b10.chunk.css",
-    "static/js/2.a9ae1ebe.chunk.js",
-    "static/css/main.59e1a37c.chunk.css",
-    "static/js/main.7868b47e.chunk.js"
+    "static/js/runtime-main.7f54f773.js",
+    "static/css/2.89f067aa.chunk.css",
+    "static/js/2.fd5b2a1d.chunk.js",
+    "static/css/main.a49d1da5.chunk.css",
+    "static/js/main.1c2990cd.chunk.js"
   ]
 }
