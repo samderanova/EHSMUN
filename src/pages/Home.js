@@ -3,17 +3,6 @@ import './Home.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
-  function checkDate() {
-    var date = new Date();
-    var month = date.getMonth() + 1;
-    var day = date.getDate();
-    var year = date.getFullYear();
-    console.log(month + "/" + day + "/" + year);
-    if ((month >= 3 & year >= 2020) && (month >= 3 & day > 8 & year >= 2020)) {
-      document.getElementById("row3").innerHTML = "";
-    }
-  }
-
   function Slide(props) { 
     return (
       <div className="carousel-item">
@@ -40,7 +29,7 @@ function App() {
   }
   return (
     /*If any delegates win awards, put it here*/
-    <div className="App" onLoad={checkDate}>
+    <div className="App">
       <div className="bd-example" style={{position: "relative"}}>
         <div className="textOnSlide slide-in" style={{color: "white", position: "absolute", left: "0", padding: "30px", top: "40%", zIndex: "1"}}>  
           <h1 style={{fontSize: "70px", padding: "0"}}>Encinal High School Model United Nations</h1>
@@ -57,15 +46,19 @@ function App() {
             <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="7"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="8"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="9"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="10"></li>
           </ol>
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img src={"IMG_56631.jpg"} className="d-block" alt="..." />
+              <img src={"IMG_20200310_173117_01.jpg"} className="d-block" alt="..." />
               <div className="carousel-caption d-none d-md-block">
-                <h5>BMAL 2019</h5>
+                <h5>BMUN 2020</h5>
                 <p>UC Berkeley, CA</p>
               </div>
             </div>
+            <Slide image="IMG_9690.jpg" heading="BMUN 2020" caption="UC Berkeley, CA" />
+            <Slide image="IMG_56631.jpg" heading="BMAL 2019" caption="UC Berkeley, CA" />
             <Slide image="imagejpeg_0.jpg" heading="BMAL 2019" caption="UC Berkeley, CA" />
             <Slide image="IMG_0250.jpg" heading="Delegate Workshop 2019" caption="UC Berkeley, CA"/>
             <Slide image="IMG_6820.JPG" heading="BMUN 2019" caption="UC Berkeley, CA" />
@@ -92,11 +85,6 @@ function App() {
             </tr>
           </thead>
           <tbody>
-            <tr id="row3">
-              <td>Berkeley Model United Nations</td>
-              <td>3/6/2020 - 3/8/2020</td>
-              <td>UC Berkeley, Berkeley, CA</td> 
-            </tr>
             <tr>
               <td>EHSMUN Outreach Mock Session</td>
               <td>3/21/2020 from 9 AM to 12 PM</td>

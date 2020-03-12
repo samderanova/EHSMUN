@@ -13,12 +13,12 @@ body {
 }
 
 .bd-example .carousel-item img {
-  filter: brightness(70%);
+  filter: brightness(85%);
 }
 
 .bd-example .d-block {
   margin: auto;
-  max-height: 900px;
+  max-height: 950px;
   width: 100%;
 }
 
