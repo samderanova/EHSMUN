@@ -47,7 +47,7 @@ class Gallery extends React.Component {
 
                         <div className="column3">
                             <img src={'bmun2020.jpg'} alt="scneery" />
-                            <img src={'bmun2020scenery.jpg'} alt="scenery 2" />
+                            <img src={'bmun2020Scenery.jpg'} alt="scenery 2" />
                             <img src={'bmalAtWork.jpg'} alt='at work' />
                             <img src={'bmal2019group.jpg'} alt='bmal 2019 group pic' />
                             <img src={'nhsmun4.jpeg'} alt='walking around'/>

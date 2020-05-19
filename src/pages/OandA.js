@@ -50,7 +50,7 @@ class OandA extends React.Component {
                         </Card.Body>
                     </Card>
                     <Card>
-                        <Card.Img variant="top" src="al.jpg" />
+                        <Card.Img variant="top" src="al.JPG" />
                         <Card.Body>
                             <Card.Title>Student Advisor</Card.Title>
                             <h6>Alvin Li</h6>
@@ -58,7 +58,7 @@ class OandA extends React.Component {
                         </Card.Body>
                     </Card>
                     <Card>
-                        <Card.Img variant="top" src="et.jpg" />
+                        <Card.Img variant="top" src="et.JPG" />
                         <Card.Body>
                             <Card.Title>Secretary</Card.Title>
                             <h6>Eric Tuason</h6>
