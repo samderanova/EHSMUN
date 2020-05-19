@@ -1,4 +1,3 @@
+# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Allow: /
-
-Sitemap: https://samderanova.github.io/EHSMUN/sitemap.xml
+Disallow:
