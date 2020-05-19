@@ -25,7 +25,7 @@ class Home extends React.Component {
             </Carousel.Item>
             
             <Carousel.Item>
-              <img className="d-block w-100" src="bmun20201.JPG" alt="BMUN 2020 group pic 2" />
+              <img className="d-block w-100" src="bmun20201.jpg" alt="BMUN 2020 group pic 2" />
               <Carousel.Caption>
                 <h3>BMUN 2020</h3>
                 <p>UC Berkeley, CA</p>
@@ -33,7 +33,7 @@ class Home extends React.Component {
             </Carousel.Item>
             
             <Carousel.Item>
-              <img className="d-block w-100" src="bmal2019slide.JPG" alt="BMAL 2019 group pic" />
+              <img className="d-block w-100" src="bmal2019slide.jpg" alt="BMAL 2019 group pic" />
               <Carousel.Caption>
                 <h3>BMAL 2019</h3>
                 <p>UC Berkeley, CA</p>
@@ -41,7 +41,7 @@ class Home extends React.Component {
             </Carousel.Item>
             
             <Carousel.Item>
-              <img className="d-block w-100" src="bmalAwards.JPG" alt="BMAL 2019 awards group pic" />
+              <img className="d-block w-100" src="bmalAwards.jpg" alt="BMAL 2019 awards group pic" />
               <Carousel.Caption>
                 <h3>BMAL 2019</h3>
                 <p>UC Berkeley, CA</p>
@@ -49,7 +49,7 @@ class Home extends React.Component {
             </Carousel.Item>
 
             <Carousel.Item>
-              <img className="d-block w-100" src="dw.JPG" alt="Delegate Workshop group pic" />
+              <img className="d-block w-100" src="dw.jpg" alt="Delegate Workshop group pic" />
               <Carousel.Caption>
                 <h3>Delegate Workshop 2019</h3>
                 <p>UC Berkeley, CA</p>
