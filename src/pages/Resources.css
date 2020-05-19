@@ -1,0 +1,108 @@
+.links {
+    padding: 0px;
+    text-align: center;
+}
+
+.page {
+    font-size: 19px;
+    line-height: 2em;
+    padding: 0 70px;
+}
+
+.links button {
+    background-color:  #5b92e5;
+}
+
+.links .btn {
+    border-radius: 5%;
+    margin: 20px;
+    max-width: 325px;
+    min-height: 150px;
+    padding: 30px;
+}
+
+.links .btn p, .links .btn h5 {
+    margin: 0;
+    max-width: 590px;
+}
+
+.page h3 {
+    padding: 25px 0;
+}
+
+.flow {
+    border: 2px solid lightgray;
+    border-radius: 20px;
+    margin: 50px 0;
+    padding: 50px;
+}
+
+.firstHalf {
+    text-align: center;
+}
+
+.flow .firstHalf .card {
+    margin: 0;
+    padding: 30px;
+    width: 19em;
+}
+
+.card-title, .card-body img {
+    text-align: center;
+}
+
+.card-body img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.flow .firstHalf, .flow .secondHalf {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.flow .firstHalf {
+    width: 50%;
+}
+
+.flow .secondHalf {
+    padding-left: 50px;
+    width: 50%;
+}
+
+.flowArrow {
+    font-size: 70px;
+    padding: 70px;
+}
+
+.flow .card {
+    background: #5b92e5;
+    border-radius: 5%;
+    color: white;
+}
+
+.flow .card-body {
+    text-align: left;
+}
+
+.extraResources {
+    text-align: center;
+}
+
+.extraResources button {
+    border-radius: 0;
+    margin: 30px;
+    min-width: 500px;
+    min-height: 300px;
+}
+
+.extraResources .button1 {
+    background: linear-gradient(rgba(0.4,0.4,0.4,0.4), rgba(0.4,0.4,0.4,0.4)), url("ucberkeley.jpg");
+    background-size: cover;
+}
+
+.extraResources .button2 {
+    background: linear-gradient(rgba(0.4,0.4,0.4,0.4), rgba(0.4,0.4,0.4,0.4)), url("gavel.jpg");
+    background-size: cover;
+}

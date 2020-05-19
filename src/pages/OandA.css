@@ -1,0 +1,19 @@
+.advisors, .officers {
+    text-align: center;
+}
+
+.OandA .card .card-title {
+    text-align: center;
+}
+
+.advisors .card {
+    text-align: left;
+    width: 20rem;
+    height: 35rem;
+}
+
+.officers .card {
+    text-align: center;
+    width: 18rem;
+    height: 25rem;
+}
