@@ -57,7 +57,7 @@ class Home extends React.Component {
             </Carousel.Item>
 
             <Carousel.Item>
-              <img className="d-block w-100" src="bmun2019placard.JPG" alt="BMUN 2019 placard" />
+              <img className="d-block w-100" src="bmun2019Placard.JPG" alt="BMUN 2019 placard" />
               <Carousel.Caption>
                 <h3>BMUN 2019</h3>
                 <p>UC Berkeley, CA</p>
