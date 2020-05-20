@@ -107,8 +107,8 @@ class Home extends React.Component {
             <Carousel.Item>
               <img className="d-block w-100" src="dmun2.jpg" alt="DMUN group pic 2" />
               <Carousel.Caption>
-                <h3>NHSMUN 2019</h3>
-                <p>San Francisco International Airport, CA</p>
+                <h3>DMUNC 2019</h3>
+                <p>UC Davis, CA</p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
