@@ -5,3 +5,5 @@ Find information on who helps make MUN function, resources on how MUN works, and
 This website was built with HTML, CSS, JS, React, and Bootstrap with the help of Lozad, a lazy loading image library.
 
 All images belong to their respective owners. Not intended for commercial use.
+
+https://samderanova.github.io/EHSMUN
